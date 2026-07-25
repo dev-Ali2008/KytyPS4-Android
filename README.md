@@ -5,28 +5,28 @@
 </p>
 
 
-# Kyty - PS4 & PS5 Emulator for Android
+# KytyPS5 Emulator for Android
 
-Android port of the [Kyty](https://github.com/InoriRus/Kyty) PS4/PS5 emulator. x86_64 interpreter on ARM64, Vulkan 1.1 rendering, AMD GCN to SPIR-V shader translation, Kotlin UI talking to C++ core through JNI.
+Android port of the [KytyPS5](https://github.com/KytyPS5/KytyPS5) PS5 emulator. x86_64 interpreter on ARM64 Vulkan 1.1 rendering, AMD GCN to SPIR-V shader translation, Kotlin UI talking to C++ core through JNI.
 
 > Brother This is a real emulator — it runs actual PS5 ELF binaries on your phone Not a video player - not streaming, not pre-recorded And **NOT SCAMMER ?!** The interpreter decodes x86_64 instructions one by one on the ARM64 CPU HLE syscalls map to real Linux kernel calls and Vulkan renders frames through your GPU driver... How it all works is explained in [How_ITS_work?.md](https://github.com/dev-Ali2008/Kyty-Android/blob/main/How_ITS_work%3F.md).
 
 ## Repository Policy
 
-**Repository Purpose:** To safeguard the codebase and maintain proprietary performance enhancements (Kyty Android is closed-source This official) repository does not contain the emulator's source code Instead, it serves as the official version archive and primary distribution platform for releasing APK builds managing compatibility issues and sharing user guides...
+**Repository Purpose:** To safeguard the codebase and maintain proprietary performance enhancements (KytyPS5 Android is closed-source This official) repository does not contain the emulator's source code Instead, it serves as the official version archive and primary distribution platform for releasing APK builds managing compatibility issues and sharing user guides...
 
 ## Status
 
 Still early days. Core subsystems are up and running — ELF loading, interpreter execution, HLE dispatch, basic Vulkan pipeline. Working through game-specific issues as they come up.
 
 ### What's working
-- ELF loading (PS4/PS5 format)
+- ELF loading (PS5 format)
 - x86_64 instruction decoding and execution on ARM64
 - ~200+ opcodes so far:
   - Standard ALU, MOV, PUSH/POP, CALL/RET, JMP/Jcc
   - Bit rotation: ROL/ROR/RCL/RCR (1 and CL variants)
   - PUSHFQ/POPFQ for full RFLAGS register save/restore
-  - CPUID with PS4/PS5-compatible feature bits
+  - CPUID with PS5-compatible feature bits
   - POPCNT through BMI1 detection
   - String ops: MOVS, CMPS, STOS, LODS, SCAS with REP prefix
   - Full ModR/M + SIB + displacement addressing
@@ -54,7 +54,7 @@ Still early days. Core subsystems are up and running — ELF loading, interprete
 - Interpreter self-test suite covering ALU, memory, branches, SSE, stack, stress
 
 ### Still working on
-- PS4/PS5 HLE library integration (SysV, Memory, Display, etc.)
+- PS5 HLE library integration (SysV, Memory, Display, etc.)
 - GPU command processing (PM4 draw dispatch)
 - Audio subsystem
 - Controller/input mapping
@@ -190,12 +190,12 @@ Results show in-app with per-test PASS/FAIL status.
 
 ## Credits
 
-- **[InoriRus](https://github.com/InoriRus/Kyty)** - Original Kyty PS4/PS5 emulator
+- Original Use KytyPS5 emulator 
 - **Android Port** - Native Android integration with x86_64 interpreter
 
 ## License
 
-This project inherits the license of the original [Kyty emulator](https://github.com/InoriRus/Kyty). See the original repository for licensing details.
+This project inherits the license of the original [KytyPS5 emulator](https://github.com/KytyPS5/KytyPS5). See the original repository for licensing details.
 
 ## Disclaimer
 
