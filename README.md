@@ -26,6 +26,8 @@ ourselves, with special attention to making it work on **Android 10**
 ## Status
 
 From my testing in games like Undertale + sonic mania. It boots and reaches gameplay at roughly 40 to 50 fps on a Snapdragon 855 6 Ram + LSFG Frame Generation 
+— [How Its work?](https://github.com/dev-Ali2008/KytyPS4-Android/blob/main/How_ITS_work_.md)
+
 
 ### Test
 
