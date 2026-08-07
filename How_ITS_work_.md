@@ -161,7 +161,7 @@ diagnostics screens.
 | shadPS4 emulation | game code runs native | PS4 libraries are HLE'd, GPU is Vulkan natively |
 | AES decrypt (import) | negligible | ARMv8 crypto extension hardware path |
 | Driver choice | per-SoC | mojo vs gen8 vs pojav picked by device |
-| Real-world | good | **Sonic Mania: 45–50 FPS on Snapdragon 855** (Mesa Turnip) | LSFG frame Generation | 
+| Real-world | good | **Sonic Mania: 45–50 FPS on Snapdragon 855** (Mesa Turnip) LSFG frame Generation | 
 
 The main compatibility lever is the per-game profile: driver line, Box64 env, and runtime
 settings are all stored per title and applied at launch.
