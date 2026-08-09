@@ -29,7 +29,41 @@ From my testing in games like Undertale + sonic mania. It boots and reaches game
 — [How Its work?](https://github.com/dev-Ali2008/KytyPS4-Android/blob/main/How_ITS_work_.md)
 
 
-### Test
+### Screenshot - Test
+<table align="center">
+  <tr>
+    <td align="center">
+      <strong>Xeodrifter</strong><br>
+      <img src="https://github.com/dev-Ali2008/KytyPS4-Android/blob/a8ddb6933c00d1a3cb10d215f553bc26ceaf4dc5/Screenshot-Test/Screenshot-1.png" width="300" alt="Xeodrifter running in KytyPS4">
+    </td>
+    <td align="center can">
+      <strong>Undertale</strong><br>
+      <img src="https://github.com/dev-Ali2008/KytyPS4-Android/blob/a8ddb6933c00d1a3cb10d215f553bc26ceaf4dc5/Screenshot-Test/Screenshot-2.png" width="300" alt="Undertale running in KytyPS4">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Balatro ( just start And then crash ) </strong><br>
+      <img src="https://github.com/dev-Ali2008/KytyPS4-Android/blob/a8ddb6933c00d1a3cb10d215f553bc26ceaf4dc5/Screenshot-Test/Screenshot-3.png" width="300" alt="Balatro running in KytyPS4">
+    </td>
+    <td align="center">
+      <strong>Sonic Mania</strong><br>
+      <img src="https://github.com/dev-Ali2008/KytyPS4-Android/blob/a8ddb6933c00d1a3cb10d215f553bc26ceaf4dc5/Screenshot-Test/Screenshot-4.png" width="300" alt="Sonic mania running in KytyPS4">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>silksong</strong><br>
+      <img src="https://github.com/dev-Ali2008/KytyPS4-Android/blob/a8ddb6933c00d1a3cb10d215f553bc26ceaf4dc5/Screenshot-Test/Screenshot-5.png" width="300" alt="silksong running in KytyPS4">
+    </td>
+    <td align="center">
+      <strong>Dead.Cells</strong><br>
+      <img src="https://github.com/dev-Ali2008/KytyPS4-Android/blob/a8ddb6933c00d1a3cb10d215f553bc26ceaf4dc5/Screenshot-Test/Screenshot-6.png" width="300" alt="Dead cells running in KytyPS4">
+    </td>
+  </tr>
+</table>
+
+<p align="center"><em>And many more...</em></p>
 
 
 ## Tech Stack
