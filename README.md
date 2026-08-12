@@ -4,7 +4,7 @@
     </a>
 </p>
 
-# KytyPS4 — PS4 Emulator for Android
+# onRps4 — PS4 Emulator for Android
 
 A PS4 emulator for Android built on [shadPS4](https://github.com/shadps4-emu/shadps4)
 running under [Box64](https://github.com/ptitSeb/box64), with a Winlator-style embedded X
@@ -24,7 +24,7 @@ ourselves, with special attention to making it work on **Android 10**
 
 ## Repository Policy
 
-**Repository Purpose:** To safeguard the codebase and maintain proprietary performance enhancements (KytyPS4 Android is closed-source This official) repository does not contain the emulator's source code Instead, it serves as the official version archive and primary distribution platform for releasing APK builds managing compatibility issues and sharing user guides...
+**Repository Purpose:** To safeguard the codebase and maintain proprietary performance enhancements (onRps4 Android is closed-source This official) repository does not contain the emulator's source code Instead, it serves as the official version archive and primary distribution platform for releasing APK builds managing compatibility issues and sharing user guides...
 
 ## Status
 
