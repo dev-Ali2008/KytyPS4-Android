@@ -11,6 +11,9 @@ running under [Box64](https://github.com/ptitSeb/box64), with a Winlator-style e
 server, Vulkan through **Vortek** and **Mesa Turnip** drivers. Kotlin/Compose UI talking
 to the C++ core and guest runtime through JNI.
 
+[Discord](https://discord.gg/XnUYy4wR3h)
+
+
 Fork From — [Bachata S4](https://github.com/JICA98/Bachata-S4)
 
 ourselves, with special attention to making it work on **Android 10**
